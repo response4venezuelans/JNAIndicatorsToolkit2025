@@ -673,6 +673,35 @@
         "Archs": "x64"
       }
     },
+    "here": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "here",
+        "Title": "A Simpler Way to Find Your Files",
+        "Version": "1.0.1",
+        "Date": "2020-12-13",
+        "Authors@R": "\n    c(person(given = \"Kirill\",\n             family = \"M\\u00fcller\",\n             role = c(\"aut\", \"cre\"),\n             email = \"krlmlr+r@mailbox.org\",\n             comment = c(ORCID = \"0000-0002-1416-3412\")),\n      person(given = \"Jennifer\",\n             family = \"Bryan\",\n             role = \"ctb\",\n             email = \"jenny@rstudio.com\",\n             comment = c(ORCID = \"0000-0002-6983-2759\")))",
+        "Description": "Constructs paths to your project's files.\n    Declare the relative path of a file within your project with 'i_am()'.\n    Use the 'here()' function as a drop-in replacement for 'file.path()',\n    it will always locate the files relative to your project root.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://here.r-lib.org/, https://github.com/r-lib/here",
+        "BugReports": "https://github.com/r-lib/here/issues",
+        "Imports": "rprojroot (>= 2.0.2)",
+        "Suggests": "conflicted, covr, fs, knitr, palmerpenguins, plyr, readr,\nrlang, rmarkdown, testthat, uuid, withr",
+        "VignetteBuilder": "knitr",
+        "Encoding": "UTF-8",
+        "LazyData": "true",
+        "RoxygenNote": "7.1.1.9000",
+        "Config/testthat/edition": "3",
+        "NeedsCompilation": "no",
+        "Packaged": "2020-12-13 06:59:33 UTC; kirill",
+        "Author": "Kirill Müller [aut, cre] (<https://orcid.org/0000-0002-1416-3412>),\n  Jennifer Bryan [ctb] (<https://orcid.org/0000-0002-6983-2759>)",
+        "Maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
+        "Repository": "CRAN",
+        "Date/Publication": "2020-12-13 07:30:02 UTC",
+        "Built": "R 4.3.2; ; 2024-01-23 01:53:21 UTC; windows"
+      }
+    },
     "highr": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -1349,6 +1378,33 @@
         "Built": "R 4.3.1; ; 2023-07-19 01:40:43 UTC; windows"
       }
     },
+    "rprojroot": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "rprojroot",
+        "Title": "Finding Files in Project Subdirectories",
+        "Version": "2.0.3",
+        "Authors@R": "\n    person(given = \"Kirill\",\n           family = \"M\\u00fcller\",\n           role = c(\"aut\", \"cre\"),\n           email = \"krlmlr+r@mailbox.org\",\n           comment = c(ORCID = \"0000-0002-1416-3412\"))",
+        "Description": "Robust, reliable and flexible paths to files below\n    a project root. The 'root' of a project is defined as a directory that\n    matches a certain criterion, e.g., it contains a certain regular file.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://rprojroot.r-lib.org/, https://github.com/r-lib/rprojroot",
+        "BugReports": "https://github.com/r-lib/rprojroot/issues",
+        "Depends": "R (>= 3.0.0)",
+        "Suggests": "covr, knitr, lifecycle, mockr, rmarkdown, testthat (>=\n3.0.0), withr",
+        "VignetteBuilder": "knitr",
+        "Config/testthat/edition": "3",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.1.2",
+        "NeedsCompilation": "no",
+        "Packaged": "2022-04-02 16:14:00 UTC; kirill",
+        "Author": "Kirill Müller [aut, cre] (<https://orcid.org/0000-0002-1416-3412>)",
+        "Maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
+        "Repository": "CRAN",
+        "Date/Publication": "2022-04-02 16:40:02 UTC",
+        "Built": "R 4.3.1; ; 2023-07-15 00:27:17 UTC; windows"
+      }
+    },
     "sass": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -1869,7 +1925,7 @@
       "checksum": "06a3f306f17bfdcd17923b8cd5fb4840"
     },
     "global.R": {
-      "checksum": "022ca2c8162bf1ce7b19b02930abf6c9"
+      "checksum": "7ce9bf06fc4dfa4fbb1d72b060512d8b"
     },
     "html/footer.html": {
       "checksum": "9f4748644e2bd8f2972d35ff8dce02bd"

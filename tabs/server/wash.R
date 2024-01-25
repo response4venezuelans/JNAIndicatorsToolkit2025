@@ -36,7 +36,10 @@ output$WASH_table <-
     options = list(
       dom = 't', # Hide the search bar
       order = list(1, 'asc'), # Initial sorting by the first column
-      searching = FALSE
+      searching = FALSE,
+      columnDefs = list(
+        list(visible = FALSE, targets = c(0,1,2))  # Hide the second column (adjust index as needed)
+      )
     ),
     rownames = FALSE, extensions = c('Responsive')
   )

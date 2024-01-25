@@ -38,7 +38,7 @@ output$WASH_table <-
       order = list(1, 'asc'), # Initial sorting by the first column
       searching = FALSE
     ),
-    rownames = FALSE
+    rownames = FALSE, extensions = c('Responsive')
   )
 })
 

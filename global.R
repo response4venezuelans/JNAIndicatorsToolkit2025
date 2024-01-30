@@ -22,14 +22,14 @@ SourceJNA2024Indicators <- read_excel(
   sheet = "DB_MERGED_Final") %>%
   select(1:15)
 
-# Save dataframe to txt
-dput_output <- capture.output(dput(SourceJNA2024Indicators))
-writeLines(dput_output, "datasource/JNAToolkit.txt")
-#saveRDS(SourceJNA2024Indicators, "datasource/JNAToolkitDF.RDS")
-
-# Read dataframe from RDS
-#read_dataframe_rds <- readRDS("datasource/JNAToolkitDF.RDS")
-SourceJNA2024Indicators <- source("datasource/JNAToolkit.txt")
+# # Save dataframe to txt
+# dput_output <- capture.output(dput(SourceJNA2024Indicators))
+# writeLines(dput_output, "datasource/JNAToolkit.txt")
+# #saveRDS(SourceJNA2024Indicators, "datasource/JNAToolkitDF.RDS")
+# 
+# # Read dataframe from RDS
+# #read_dataframe_rds <- readRDS("datasource/JNAToolkitDF.RDS")
+# SourceJNA2024Indicators <- source("datasource/JNAToolkit.txt")
 
 SourceJNA2024Indicators <- structure(list(Sector = c("Educación", "Educación", "Educación", 
                                                      "Educación", "Educación", "Educación", "Educación", "Educación", 

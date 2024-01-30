@@ -14,7 +14,11 @@ setwd(here())
 
 ## -- common functions and global variables --
 source("functions/utils.R")
-appColors <- c("#00AAAD", "#007681", "#004F66", "#132A3E")
+appColors <- c("#88CDD3", "#00AAAD", "#007681",
+               "#132A3E", "#004469", "#00649F",
+               "#5AA8C8", "#AACBDE", "#C5E1AE",
+               "#AAD48A", "#8FC964", "#72BF44",
+               "#FFD95F", "#F5A35A", "#FAC495")
 
 # path <- "C:/Users/CABRERJO/International Organization for Migration - IOM/Regional Cordination Platform - General/IM/JNAs & Sector Guides/PiN Indicators 2024/Compilado de fichas (post-taller Dec 23)/Respuesta final de sectores"
 # SourceJNA2024Indicators <- read_excel(

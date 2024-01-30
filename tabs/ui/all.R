@@ -1,6 +1,6 @@
 
 all <- tabPanel(
-  title = "ALL",
+  title = "TODOS",
   value = "all",
   div(
     id = "sectorTitle",

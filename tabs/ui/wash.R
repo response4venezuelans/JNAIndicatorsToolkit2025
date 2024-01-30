@@ -1,5 +1,6 @@
+
 wash <- tabPanel(
-  title = "WASH", 
+  title = "WASH",
   value = "wash",
   div(
     id = "sectorTitle",
@@ -9,13 +10,13 @@ wash <- tabPanel(
   br(), hr(),
   mainPanel(
     fluidRow(
-      column(width = 3, selectInput("tipo_filter", "Tipo de población", choices = NULL, multiple = TRUE)),
-      column(width = 3, selectInput("core_filter", "Indicador Core", choices = NULL, multiple = TRUE)),
-      column(width = 3, selectInput("unidad_filter", "Unidad de medida", choices = NULL, multiple = TRUE)),
-      column(width = 3, textInput("redaccion_filter", label = "Redaccion del indicador", placeholder = "Palabras clave..."))
+      column(width = 3, selectInput("WASH_tipo_filter", "Tipo de población", choices = NULL, multiple = TRUE)),
+      column(width = 3, selectInput("WASH_core_filter", "Indicador Core", choices = NULL, multiple = TRUE)),
+      column(width = 3, selectInput("WASH_unidad_filter", "Unidad de medida", choices = NULL, multiple = TRUE)),
+      column(width = 3, textInput("WASH_redaccion_filter", label = "Redaccion del indicador", placeholder = "Palabras clave..."))
     )
   ),
-  downloadButton("downloadData", "Download"),
+  downloadButton("WASH_downloadData", "Download"),
   DTOutput("WASH_table")
   )
 

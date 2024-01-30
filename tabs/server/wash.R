@@ -1,20 +1,19 @@
 
-data <- JNA2024Indicators
-#%>% filter(str_detect(Sector, "Salud"))
+WASH_data <- JNA2024Indicators %>% filter(str_detect(Sector, "WASH"))
 
 # Reactive filter
 filtered_data <- reactive({
-  filter_data <- data
-  if (!is.null(input$tipo_filter)) {
-    filter_data <- filter_data[filter_data$`Tipo de población` %in% input$tipo_filter, ]
+  filter_data <- WASH_data
+  if (!is.null(input$WASH_tipo_filter)) {
+    filter_data <- filter_data[filter_data$`Tipo de población` %in% input$WASH_tipo_filter, ]
   }
-  if (!is.null(input$core_filter)) {
-    filter_data <- filter_data[filter_data$`Indicador Core PiN` %in% input$core_filter, ]
+  if (!is.null(input$WASH_core_filter)) {
+    filter_data <- filter_data[filter_data$`Indicador Core PiN` %in% input$WASH_core_filter, ]
   }
-  if (!is.null(input$unidad_filter)) {
-    filter_data <- filter_data[filter_data$`Unidad de medida` %in% input$unidad_filter, ]
+  if (!is.null(input$WASH_unidad_filter)) {
+    filter_data <- filter_data[filter_data$`Unidad de medida` %in% input$WASH_unidad_filter, ]
   }
-  if (!is.null(input$redaccion_filter) && input$redaccion_filter != "") {
+  if (!is.null(input$WASH_redaccion_filter) && input$WASH_redaccion_filter != "") {
     filter_data <- filter_data[grep(input$redaccion_filter, filter_data$`Redaccion del indicador`, ignore.case = TRUE), ]
   }
   filter_data
@@ -22,9 +21,9 @@ filtered_data <- reactive({
 
 # Update filter choices
 observe({
-  updateSelectInput(session, "tipo_filter", choices = unique(data$`Tipo de población`))
-  updateSelectInput(session, "core_filter", choices = unique(data$`Indicador Core PiN`))
-  updateSelectInput(session, "unidad_filter", choices = unique(data$`Unidad de medida`))
+  updateSelectInput(session, "WASH_tipo_filter", choices = unique(WASH_data$`Tipo de población`))
+  updateSelectInput(session, "WASH_core_filter", choices = unique(WASH_data$`Indicador Core PiN`))
+  updateSelectInput(session, "WASH_unidad_filter", choices = unique(WASH_data$`Unidad de medida`))
 })
 
 # Render the table with sorting and filtering
@@ -36,16 +35,17 @@ output$WASH_table <-
     options = list(
       dom = 't', # Hide the search bar
       order = list(1, 'asc'), # Initial sorting by the first column
-      searching = FALSE,
-      columnDefs = list(
-        list(visible = FALSE, targets = c(0,1,2))  # Hide the second column (adjust index as needed)
-      )
+      pageLength = 1000, # Display up to 1000 rows per page
+      searching = FALSE#,
+      # columnDefs = list(
+      #   list(visible = FALSE, targets = c(0,1,2))  # Hide the second column (adjust index as needed)
+      # )
     ),
     rownames = FALSE, extensions = c('Responsive')
   )
 })
 
-output$downloadData <- downloadHandler(
+output$WASH_downloadData <- downloadHandler(
   filename = function() {
     paste("filtered_data_", Sys.Date(), ".xlsx", sep = "")
   },

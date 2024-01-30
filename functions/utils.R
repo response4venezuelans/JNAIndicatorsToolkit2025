@@ -18,3 +18,7 @@ tab_sector <- function(text, color, icon, id){
                   </div>
               </div></a>'))
 }
+
+  
+
+

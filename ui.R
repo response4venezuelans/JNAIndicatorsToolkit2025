@@ -27,7 +27,19 @@ shinyUI(
                collapsible=T,
                ##-- Tabs ----
                home,
-               wash
+               all,
+               seguridadAlimentaria,
+               salud,
+               transporteHumanitario,
+               integracion,
+               nutricion,
+               proteccion,
+               infancia,
+               vbg,
+               trataTrafico,
+               alojamiento,
+               wash,
+               educacion
     ),
     ##-- Footer ----
     div(class = "footer",

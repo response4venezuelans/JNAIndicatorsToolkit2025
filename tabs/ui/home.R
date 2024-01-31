@@ -1,9 +1,12 @@
 home <- tabPanel(title = "Home", 
                  value = "home",
-                 hr(),
+                 hr()
+                 HTML("<h1><center>Bienvenido al repositorio de <b>indicadores de necesidad</b> de la plataforma R4V</center></h1>"),
+                 br(), br(), br(), br(),
                  column(width = 12,
                         wellPanel(
-                          HTML("<h1><b>R4V Toolkit de indicadores de necesidad</b></h1>"),
+                          HTML("<h1><b>Toolkit de indicadores de necesidad</b></h1>"),
+
                           HTML("<h4>La plataforma interagencial para la respuesta a venezuela R4V mediante una
                                <b>Evaluacion conjunta de necesidades JNA</b>.</h4>")
                         )

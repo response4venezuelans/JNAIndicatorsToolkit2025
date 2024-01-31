@@ -4,6 +4,13 @@ home <- tabPanel(title = "Home",
                  br(), br(),
                  HTML("<h1><center>Bienvenido al repositorio de <b>indicadores de necesidad</b> de la plataforma R4V</center></h1>"),
                  br(), br(), br(), br(),
+                 column(width = 12,
+                        wellPanel(
+                          HTML("<h1><b>Toolkit de indicadores de necesidad</b></h1>"),
+                          HTML("<h4>La plataforma interagencial para la respuesta a venezuela R4V mediante una
+                               <b>Evaluacion conjunta de necesidades JNA</b>.</h4>")
+                        )
+                 ),
                  column(width = 3, align = "center",
                         tab_sector(text = "TODOS", color = appColors[13], icon = "all.png", id = "all")
                  ),
@@ -42,13 +49,5 @@ home <- tabPanel(title = "Home",
                  ),
                  column(width = 3, align = "center",
                         tab_sector(text = "EDUCACION", color = appColors[1], icon = "educacion.png", id = "educacion")
-                 ),
-                 column(width = 12,
-                        br(), br(), br(), br(),
-                        wellPanel(
-                          HTML("<h1><b>Toolkit de indicadores de necesidad</b></h1>"),
-                          HTML("<h4>La plataforma interagencial para la respuesta a venezuela R4V mediante una
-                               <b>Evaluacion conjunta de necesidades JNA</b>.</h4>")
-                        )
                  )
 )

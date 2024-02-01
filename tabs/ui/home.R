@@ -26,19 +26,19 @@ home <- tabPanel(title = "Home",
                         tab_sector(text = "NUTRICION", color = appColors[6], icon = "nutricion.png", id = "nutricion")
                  ),
                  column(width = 3, align = "center",
-                        tab_sector(text = "PROTECCION", color = appColors[12], icon = "proteccionGeneral.png", id = "proteccion")
+                        tab_sector(text = "PROTECCION", color = appColors[15], icon = "proteccionGeneral.png", id = "proteccion")
                  ),
                  column(width = 3, align = "center",
-                        tab_sector(text = "PROTECCION DE LA NIÑEZ", color = appColors[11], icon = "proteccionInfancia.png", id = "infancia")
+                        tab_sector(text = "PROTECCION DE LA NIÑEZ", color = appColors[12], icon = "proteccionInfancia.png", id = "infancia")
                  ),
                  column(width = 3, align = "center",
-                        tab_sector(text = "VIOLENCIA BASADA EN GÉNERO", color = appColors[10], icon = "proteccionVBG.png", id = "vbg")
+                        tab_sector(text = "VIOLENCIA BASADA EN GÉNERO", color = appColors[11], icon = "proteccionVBG.png", id = "vbg")
                  ),
                  column(width = 3, align = "center",
-                        tab_sector(text = "TRATA Y TRAFICO DE PERSONAS", color = appColors[9], icon = "proteccionTT.png", id = "trataTrafico")
+                        tab_sector(text = "TRATA Y TRAFICO DE PERSONAS", color = appColors[10], icon = "proteccionTT.png", id = "trataTrafico")
                  ),
                  column(width = 3, align = "center",
-                        tab_sector(text = "PEAS", color = appColors[15], icon = "peas.png", id = "peas")
+                        tab_sector(text = "PEAS", color = appColors[9], icon = "peas.png", id = "peas")
                  ),
                  column(width = 3, align = "center",
                         tab_sector(text = "ALOJAMIENTO", color = appColors[7], icon = "alojamiento.png", id = "alojamiento")

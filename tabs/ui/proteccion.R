@@ -1,11 +1,11 @@
 
 proteccion <- tabPanel(
-  title = "Protección General",
+  title = "Protección",
   value = "proteccion",
   div(
     id = "sectorTitle",
     tags$img(src = "img/proteccionGeneral.png", id = "SectorLogo"),
-    h3("Indicadores sector Protección General")
+    h3("Indicadores sector Protección")
   ),
   br(), hr(),
   mainPanel(

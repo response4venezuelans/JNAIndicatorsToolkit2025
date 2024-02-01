@@ -34,7 +34,7 @@ output$VBG_table <-
       class = 'center-table',
       options = list(
         dom = 't', # Hide the search bar
-        order = list(1, 'asc'), # Initial sorting by the first column
+        #order = list(1, 'asc'), # Initial sorting by the first column
         pageLength = 1000, # Display up to 1000 rows per page
         searching = FALSE#,
         # columnDefs = list(

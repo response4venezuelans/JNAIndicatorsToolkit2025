@@ -21,12 +21,12 @@ shinyServer(function(input, output, session){
   source("tabs/server/vbg.R", local = TRUE)
   ##-- PROTECCION TRATA TRAFICO ----
   source("tabs/server/trataTrafico.R", local = TRUE)
-  ##-- PROTECCION TRATA TRAFICO ----
+  ##-- PEAS ----
+  source("tabs/server/peas.R", local = TRUE)
+  ##-- ALOJAMIENTO ----
   source("tabs/server/alojamiento.R", local = TRUE)
   ##-- EDUCATION ----
   source("tabs/server/educacion.R", local = TRUE)
   ##-- WASH ----
   source("tabs/server/wash.R", local = TRUE)
-  ##-- PEAS ----
-  source("tabs/server/peas.R", local = TRUE)
 })

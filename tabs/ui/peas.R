@@ -4,8 +4,8 @@ peas <- tabPanel(
   value = "peas",
   div(
     id = "sectorTitle",
-    #tags$img(src = "img/peas.png", id = "SectorLogo"),
-    h3("Indicadores Grupo de trabajo PEAS")
+    tags$img(src = "img/peas.png", id = "SectorLogo"),
+    h3("Indicadores PEAS")
   ),
   br(), hr(),
   mainPanel(

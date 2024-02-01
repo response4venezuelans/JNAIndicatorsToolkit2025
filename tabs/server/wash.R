@@ -1,5 +1,5 @@
 
-WASH_data <- JNA2024Indicators %>% filter(str_detect(Sector, "WASH"))
+WASH_data <- JNA2024Indicators %>% filter(Sector == "WASH")
 
 # Reactive filter
 filtered_data <- reactive({
@@ -27,6 +27,7 @@ observe({
 })
 
 # Render the table with sorting and filtering
+
 output$WASH_table <-
   renderDT({
   datatable(

@@ -1,8 +1,8 @@
 
-PEAS_data <- JNA2024Indicators %>% filter(str_detect(Sector, "PEAS"))
+PEAS_data <- JNA2024Indicators %>% filter(Sector == "PEAS")
 
 # Reactive filter
-filtered_data <- reactive({
+PEAS_filtered_data <- reactive({
   filter_data <- PEAS_data
   if (!is.null(input$PEAS_tipo_filter)) {
     filter_data <- filter_data[filter_data$`Tipo de población` %in% input$PEAS_tipo_filter, ]
@@ -30,7 +30,7 @@ observe({
 output$PEAS_table <-
   renderDT({
     datatable(
-      filtered_data(),
+      PEAS_filtered_data(),
       class = 'center-table',
       options = list(
         dom = 't', # Hide the search bar
@@ -50,6 +50,6 @@ output$PEAS_downloadData <- downloadHandler(
     paste("filtered_data_", Sys.Date(), ".xlsx", sep = "")
   },
   content = function(file) {
-    writexl::write_xlsx(filtered_data(), path = file)
+    writexl::write_xlsx(PEAS_filtered_data(), path = file)
   }
 )

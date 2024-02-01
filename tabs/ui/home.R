@@ -4,7 +4,7 @@ home <- tabPanel(title = "Home",
                         wellPanel(
                           HTML("<h1><b>Catálogo de preguntas e indicadores para evaluaciones de necesidades de R4V</b></h1>"),
 
-                          HTML("<h4>Cada módulo a continuación contiene las fichas de <b>indicadores y preguntas estandarizados</b> para la estimación de las personas en necesidad en cada uno de los sectores de R4V</h4>")
+                          HTML("<h5>Cada módulo a continuación contiene las fichas de <b>indicadores y preguntas estandarizados</b> para la estimación de las personas en necesidad en cada uno de los sectores y subsectores de la plataforma de coordinación interagencial R4V</h5>")
                         )
                  ),
                  column(width = 3, align = "center",

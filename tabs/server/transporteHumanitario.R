@@ -14,7 +14,7 @@ TRANSPORTEHUMANITARIO_filtered_data <- reactive({
     filter_data <- filter_data[filter_data$`Unidad de medida` %in% input$TRANSPORTEHUMANITARIO_unidad_filter, ]
   }
   if (!is.null(input$TRANSPORTEHUMANITARIO_redaccion_filter) && input$TRANSPORTEHUMANITARIO_redaccion_filter != "") {
-    filter_data <- filter_data[grep(input$redaccion_filter, filter_data$`Redaccion del indicador`, ignore.case = TRUE), ]
+    filter_data <- filter_data[grep(input$TRANSPORTEHUMANITARIO_redaccion_filter, filter_data$`Redaccion del indicador`, ignore.case = TRUE), ]
   }
   filter_data
 })

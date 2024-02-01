@@ -27,4 +27,6 @@ shinyServer(function(input, output, session){
   source("tabs/server/educacion.R", local = TRUE)
   ##-- WASH ----
   source("tabs/server/wash.R", local = TRUE)
+  ##-- PEAS ----
+  source("tabs/server/peas.R", local = TRUE)
 })

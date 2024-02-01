@@ -38,3 +38,6 @@ observeEvent(input$wash,{
 observeEvent(input$educacion,{
   updateTabsetPanel(session = session, inputId = "navbar", selected = "educacion")
 })
+observeEvent(input$peas,{
+  updateTabsetPanel(session = session, inputId = "navbar", selected = "peas")
+})

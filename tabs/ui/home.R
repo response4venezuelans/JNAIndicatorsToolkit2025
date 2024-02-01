@@ -45,5 +45,8 @@ home <- tabPanel(title = "Home",
                  ),
                  column(width = 3, align = "center",
                         tab_sector(text = "EDUCACION", color = appColors[1], icon = "educacion.png", id = "educacion")
+                 ),
+                 column(width = 3, align = "center",
+                        tab_sector(text = "PEAS", color = appColors[15], icon = "peas.png", id = "peas")
                  )
 )

@@ -14,7 +14,7 @@ SALUD_filtered_data <- reactive({
     filter_data <- filter_data[filter_data$`Unidad de medida` %in% input$SALUD_unidad_filter, ]
   }
   if (!is.null(input$SALUD_redaccion_filter) && input$SALUD_redaccion_filter != "") {
-    filter_data <- filter_data[grep(input$redaccion_filter, filter_data$`Redaccion del indicador`, ignore.case = TRUE), ]
+    filter_data <- filter_data[grep(input$SALUD_redaccion_filter, filter_data$`Redaccion del indicador`, ignore.case = TRUE), ]
   }
   filter_data
 })

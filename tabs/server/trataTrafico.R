@@ -14,7 +14,7 @@ TRATATRAFICO_filtered_data <- reactive({
     filter_data <- filter_data[filter_data$`Unidad de medida` %in% input$TRATATRAFICO_unidad_filter, ]
   }
   if (!is.null(input$TRATATRAFICO_redaccion_filter) && input$TRATATRAFICO_redaccion_filter != "") {
-    filter_data <- filter_data[grep(input$redaccion_filter, filter_data$`Redaccion del indicador`, ignore.case = TRUE), ]
+    filter_data <- filter_data[grep(input$TRATATRAFICO_redaccion_filter, filter_data$`Redaccion del indicador`, ignore.case = TRUE), ]
   }
   filter_data
 })

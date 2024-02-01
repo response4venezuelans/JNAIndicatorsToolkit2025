@@ -14,7 +14,7 @@ ALOJAMIENTO_filtered_data <- reactive({
     filter_data <- filter_data[filter_data$`Unidad de medida` %in% input$ALOJAMIENTO_unidad_filter, ]
   }
   if (!is.null(input$ALOJAMIENTO_redaccion_filter) && input$ALOJAMIENTO_redaccion_filter != "") {
-    filter_data <- filter_data[grep(input$redaccion_filter, filter_data$`Redaccion del indicador`, ignore.case = TRUE), ]
+    filter_data <- filter_data[grep(input$ALOJAMIENTO_redaccion_filter, filter_data$`Redaccion del indicador`, ignore.case = TRUE), ]
   }
   filter_data
 })

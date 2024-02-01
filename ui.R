@@ -39,7 +39,8 @@ shinyUI(
                trataTrafico,
                alojamiento,
                wash,
-               educacion
+               educacion,
+               peas
     ),
     ##-- Footer ----
     div(class = "footer",

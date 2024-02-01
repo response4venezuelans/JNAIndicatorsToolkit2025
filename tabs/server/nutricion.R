@@ -14,7 +14,7 @@ NUTRICION_filtered_data <- reactive({
     filter_data <- filter_data[filter_data$`Unidad de medida` %in% input$NUTRICION_unidad_filter, ]
   }
   if (!is.null(input$NUTRICION_redaccion_filter) && input$NUTRICION_redaccion_filter != "") {
-    filter_data <- filter_data[grep(input$redaccion_filter, filter_data$`Redaccion del indicador`, ignore.case = TRUE), ]
+    filter_data <- filter_data[grep(input$NUTRICION_redaccion_filter, filter_data$`Redaccion del indicador`, ignore.case = TRUE), ]
   }
   filter_data
 })

@@ -14,7 +14,7 @@ ALL_filtered_data <- reactive({
     filter_data <- filter_data[filter_data$`Unidad de medida` %in% input$ALL_unidad_filter, ]
   }
   if (!is.null(input$ALL_redaccion_filter) && input$ALL_redaccion_filter != "") {
-    filter_data <- filter_data[grep(input$redaccion_filter, filter_data$`Redaccion del indicador`, ignore.case = TRUE), ]
+    filter_data <- filter_data[grep(input$ALL_redaccion_filter, filter_data$`Redaccion del indicador`, ignore.case = TRUE), ]
   }
   filter_data
 })

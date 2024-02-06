@@ -5,7 +5,7 @@ proteccion <- tabPanel(
   div(
     id = "sectorTitle",
     tags$img(src = "img/proteccionGeneral.png", id = "SectorLogo"),
-    h3("Indicadores sector Protección")
+    h3("Indicadores sector Protección", style = paste0("color: ", appColors[15], ";"))
   ),
   br(), hr(),
   mainPanel(

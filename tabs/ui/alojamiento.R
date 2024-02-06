@@ -5,7 +5,7 @@ alojamiento <- tabPanel(
   div(
     id = "sectorTitle",
     tags$img(src = "img/alojamiento.png", id = "SectorLogo"),
-    h3("Indicadores sector Alojamiento")
+    h3("Sector Alojamiento", style = paste0("color: ", appColors[7], ";"))
   ),
   br(), hr(),
   mainPanel(

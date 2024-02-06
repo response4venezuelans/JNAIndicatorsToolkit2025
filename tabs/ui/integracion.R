@@ -5,7 +5,7 @@ integracion <- tabPanel(
   div(
     id = "sectorTitle",
     tags$img(src = "img/integracion.png", id = "SectorLogo"),
-    h3("Indicadores sector Integración")
+    h3("Indicadores sector Integración", style = paste0("color: ", appColors[5], ";"))
   ),
   br(), hr(),
   mainPanel(

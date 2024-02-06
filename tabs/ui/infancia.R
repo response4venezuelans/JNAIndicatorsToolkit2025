@@ -5,7 +5,7 @@ infancia <- tabPanel(
   div(
     id = "sectorTitle",
     tags$img(src = "img/proteccionInfancia.png", id = "SectorLogo"),
-    h3("Indicadores sector Protección de la niñez")
+    h3("Indicadores sector Protección de la niñez", style = paste0("color: ", appColors[12], ";"))
   ),
   br(), hr(),
   mainPanel(

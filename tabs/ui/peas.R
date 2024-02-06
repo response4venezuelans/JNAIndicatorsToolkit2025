@@ -5,7 +5,7 @@ peas <- tabPanel(
   div(
     id = "sectorTitle",
     tags$img(src = "img/peas.png", id = "SectorLogo"),
-    h3("Indicadores PEAS")
+    h3("Indicadores PEAS", style = paste0("color: ", appColors[9], ";"))
   ),
   br(), hr(),
   mainPanel(

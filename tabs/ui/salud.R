@@ -5,7 +5,7 @@ salud <- tabPanel(
   div(
     id = "sectorTitle",
     tags$img(src = "img/salud.png", id = "SectorLogo"),
-    h3("Indicadores sector Salud")
+    h3("Indicadores sector Salud", style = paste0("color: ", appColors[3], ";"))
   ),
   br(), hr(),
   mainPanel(

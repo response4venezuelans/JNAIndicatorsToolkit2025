@@ -41,7 +41,7 @@ output$ALOJAMIENTO_table <-
         #   list(visible = FALSE, targets = c(0,1,2))  # Hide the second column (adjust index as needed)
         # )
       ),
-      rownames = FALSE, extensions = c('Responsive')
+      rownames = FALSE, extensions = c('Responsive') 
     )
   })
 

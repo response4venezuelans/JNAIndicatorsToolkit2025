@@ -28,6 +28,7 @@ shinyUI(
                ##-- Tabs ----
                home,
                all,
+               framework,
                seguridadAlimentaria,
                salud,
                transporteHumanitario,
@@ -42,6 +43,10 @@ shinyUI(
                wash,
                educacion
     ),
+    div(style="padding: 1px 0px; width: '100%'",
+        titlePanel(
+          title="", windowTitle = "Indicadores JNA"
+        )),
     ##-- Footer ----
     div(class = "footer",
         includeHTML("html/footer.html")

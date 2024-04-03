@@ -11,6 +11,9 @@ home <- tabPanel(title = "Home",
                         tab_sector(text = "TODOS", color = appColors[13], icon = "all.png", id = "all")
                  ),
                  column(width = 3, align = "center",
+                        tab_sector(text = "Framework", color = appColors[15], icon = "peas.png", id = "framework")
+                 ),
+                 column(width = 3, align = "center",
                         tab_sector(text = "SEGURIDAD ALIMENTARIA", color = appColors[2], icon = "seguridadAlimentaria.png", id = "seguridadAlimentaria")
                  ),
                  column(width = 3, align = "center",

@@ -2,6 +2,9 @@
 observeEvent(input$all,{
   updateTabsetPanel(session = session, inputId = "navbar", selected = "all")
 })
+observeEvent(input$framework,{
+  updateTabsetPanel(session = session, inputId = "navbar", selected = "framework")
+})
 observeEvent(input$seguridadAlimentaria,{
   updateTabsetPanel(session = session, inputId = "navbar", selected = "seguridadAlimentaria")
 })

@@ -1,8 +1,8 @@
 shinyServer(function(input, output, session){
+  ##-- Analitical Framework ----
+  source("tabs/server/framework.R", local = TRUE)
   ##-- HOME ----
   source("tabs/server/home.R", local = TRUE)
-  ##-- HOME ----
-  source("tabs/server/framework.R", local = TRUE)
   ##-- ALL ----
   source("tabs/server/all.R", local = TRUE)
   ##-- SEGURIDAD ALIMENTARIA ----

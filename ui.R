@@ -26,8 +26,8 @@ shinyUI(
                fluid = T,
                collapsible=T,
                ##-- Tabs ----
-               framework,
                home,
+               framework,
                all,
                seguridadAlimentaria,
                salud,

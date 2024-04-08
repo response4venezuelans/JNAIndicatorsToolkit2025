@@ -5,7 +5,7 @@ transporteHumanitario <- tabPanel(
   div(
     id = "sectorTitle",
     tags$img(src = "img/transporteHumanitario.png", id = "SectorLogo"),
-    h3("Indicadores sector Transporte Humanitario", style = paste0("color: ", appColors[4], ";"))
+    h3("Indicadores sector Transporte Humanitario", style = paste0("color: ", appColors[16], ";"))
   ),
   br(), hr(),
   mainPanel(

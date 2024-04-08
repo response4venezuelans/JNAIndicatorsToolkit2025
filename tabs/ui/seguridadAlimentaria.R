@@ -5,7 +5,7 @@ seguridadAlimentaria <- tabPanel(
   div(
     id = "sectorTitle",
     tags$img(src = "img/seguridadAlimentaria.png", id = "SectorLogo"),
-    h3("Indicadores sector Seguridad Alimentaria", style = paste0("color: ", appColors[2], ";"))
+    h3("Indicadores sector Seguridad Alimentaria", style = paste0("color: ", appColors[16], ";"))
   ),
   br(), hr(),
   mainPanel(

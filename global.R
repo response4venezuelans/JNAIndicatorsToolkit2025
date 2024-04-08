@@ -29,7 +29,8 @@ appColors <- c(
   "#72BF44",
   "#fec44f",
   "#F5A35A",
-  "#538c31"
+  "#538c31",
+  "#737373"
 )
 
 SourceJNA2024Indicators <-

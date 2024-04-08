@@ -5,7 +5,7 @@ educacion <- tabPanel(
   div(
     id = "sectorTitle",
     tags$img(src = "img/educacion.png", id = "SectorLogo"),
-    h3("Sector Educacion", style = paste0("color: ", appColors[1], ";"))
+    h3("Sector Educacion", style = paste0("color: ", appColors[16], ";"))
   ),
   br(), hr(),
   mainPanel(

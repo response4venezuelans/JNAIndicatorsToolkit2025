@@ -5,7 +5,7 @@ vbg <- tabPanel(
   div(
     id = "sectorTitle",
     tags$img(src = "img/proteccionVBG.png", id = "SectorLogo"),
-    h3("Indicadores sector Protección de la niñez", style = paste0("color: ", appColors[11], ";"))
+    h3("Indicadores sector Protección de la niñez", style = paste0("color: ", appColors[16], ";"))
   ),
   br(), hr(),
   mainPanel(

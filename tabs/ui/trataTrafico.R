@@ -5,7 +5,7 @@ trataTrafico <- tabPanel(
   div(
     id = "sectorTitle",
     tags$img(src = "img/proteccionTT.png", id = "SectorLogo"),
-    h3("Indicadores sector Trata y tráfico de personas", style = paste0("color: ", appColors[10], ";"))
+    h3("Indicadores sector Trata y tráfico de personas", style = paste0("color: ", appColors[16], ";"))
   ),
   br(), hr(),
   mainPanel(

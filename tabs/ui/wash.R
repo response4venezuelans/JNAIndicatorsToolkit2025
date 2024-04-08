@@ -5,7 +5,7 @@ wash <- tabPanel(
   div(
     id = "sectorTitle",
     tags$img(src = "img/wash.png", id = "SectorLogo"),
-    h3("Indicadores sector WASH", style = paste0("color: ", appColors[8], ";"))
+    h3("Indicadores sector WASH", style = paste0("color: ", appColors[16], ";"))
   ),
   br(), hr(),
   mainPanel(

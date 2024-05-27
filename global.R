@@ -1179,8 +1179,8 @@ SourceJNA2024Indicators <-
         "Porcentaje de personas con trabajos informales",
         "Porcentaje de personas con trabajos informales",
         "Porcentaje de personas con trabajos informales",
-        "Porcentaje de personas que se han sentido discriminadas en el espacio laboral o de emprendimiento/autoempleo",
-        "Porcentaje de personas que se han sentido discriminadas en el espacio laboral o de emprendimiento/autoempleo",
+        "Porcentaje de personas que se han sentido discriminadas por su nacionalidad",
+        "Porcentaje de personas que se han sentido discriminadas por su nacionalidad",
         "Porcentaje de personas encuestadas que no tienen acceso a servicios financieros",
         "DESCRIPCIÓN: Hogares con ingresos por debajo del salario mínimo",
         "DESCRIPCIÓN: Participación en en espacios de organización barrial/comunitaria/vecinal",
@@ -1460,8 +1460,8 @@ SourceJNA2024Indicators <-
         "Calcular las personas en edad laboral en informalidad. Para ellos podemos dirigir nuestras intervenciones del sector para mejorar la calidad del empleo",
         "Calcular las personas en edad laboral en informalidad. Para ellos podemos dirigir nuestras intervenciones del sector para mejorar la calidad del empleo",
         "Calcular las personas en edad laboral en informalidad. Para ellos podemos dirigir nuestras intervenciones del sector para mejorar la calidad del empleo",
-        "Medir el nivel de discriminación por nacionalidad en el ambito laboral así los socios del sector pueden abordar de manera específica esta problemática, que impide la integración.",
-        "Medir el nivel de discriminación por nacionalidad en el ambito laboral así los socios del sector pueden abordar de manera específica esta problemática, que impide la integración.",
+        "Medir el nivel de discriminación por nacionalidad, con énfasis en el ambito laboral. Así los socios del sector pueden abordar de manera específica esta problemática, que impide la integración.",
+        "Medir el nivel de discriminación por nacionalidad, con énfasis en el ambito laboral. Así los socios del sector pueden abordar de manera específica esta problemática, que impide la integración.",
         "Medir el acceso a servicios financieros indica la facilidad que puedan tener las personas para hacer parte del sistema financiero y acceder a formas actuales del manejo del dinero. Por ejemplo, posibilidades para tener ahorros seguros, acceso a prestamos, facilidad para pagos de bienes y servicios entre otros. La inclusion de las personas en el sistema financiero contribuye con el desarrollo económico de los paises",
         "Conocer cuántas personas en el hogar viven con ingresos por debajo del salario minimo es un buen indicador para aproximar el nivel de pobreza y necesidad de un hogar",
         "Estimar el nivel de integración en espacios comunitarios.",
@@ -2303,7 +2303,7 @@ SourceJNA2024Indicators <-
         "Sí; \r\nNo; \r\nNo sabe/ No responde",
         "Sí; \r\nNo; \r\nNo sabe/ No responde",
         "Sí y mi empleador aporta lo que corresponde a mi salario\r\nSí y mi empleador aporta un porcentaje menor o mayor de lo que corresponde a mi salario; \r\nNo; \r\nNo sabe/ No responde",
-        "No; \r\nSi, a razon de mi edad; \r\nSi, por mi sexo (hombre, mujer); \r\nSi, por mi orientación sexual (gays, lesbianas, bisexuales); \r\nSi, por mi identidad de género diversa (mujeres trans, hombres trans, no binario); \r\nSi, por mi etnia; \r\nSi, por tener discapacidad; \r\nSi, por mi nacionalidad;                     \r\nOtra razón; \r\nNo sabe; \r\nPrefiere no responder\r\n",
+        "No; \r\nSi, a razon de mi edad; \r\nSi, por mi sexo (hombre, mujer); \r\nSi, por mi orientación sexual (gays, lesbianas, bisexuales); \r\nSi, por mi identidad de género diversa (mujeres trans, hombres trans, no binario); \r\nSi, por mi etnia; \r\nSi, por tener discapacidad; \r\nSi, por mi nacionalidad;                     \r\nOtra razón; \r\nNo sabe; \r\nPrefiere no responder",
         "En el trabajo; \r\nBuscando trabajo; \r\nEn el sistema educativo; \r\nEn el acceso a servicios prestados por el gobierno; \r\nEn el acceso a vivienda; \r\nEn el mercado; \r\nEn su barrio/comunidad; \r\nOtro; \r\nNo sabe; \r\nPrefiere no responder",
         "Cuenta corriente; \r\nCuenta de ahorros con alguna entidad financiera; \r\nBilletera electrónica; \r\nMicrocrédito; \r\nCertificados de Depósito a Término/Plazo (ajustar con el nombre que use cada pais); \r\nPréstamo para compra de vivienda;  \r\nPréstamo para compra de vehículo; \r\nPréstamo de libre inversión; \r\nTarjeta de crédito; \r\nOtro; \r\nNinguno; \r\nNo sabe; \r\nPrefiere no responder",
         "Opciones a determinar por cada uno de los paises en cuyos rangos se contemple la linea de corte del salario minimo",
@@ -2585,7 +2585,7 @@ SourceJNA2024Indicators <-
         "No",
         "-",
         "Si por nacionalidad",
-        "En el trabajo; \r\nBuscando trabajo",
+        "-",
         "Ninguno",
         "Ingresos por debajo del salario minimo",
         "-",
@@ -2866,7 +2866,7 @@ SourceJNA2024Indicators <-
         "Si",
         "No",
         "Si",
-        "Si",
+        "No",
         "Si",
         "No",
         "No",
@@ -3146,8 +3146,8 @@ SourceJNA2024Indicators <-
         "Numero de personas en trabajos informales (sin contrato/recibo o sin seguridad social) / Total de miembros que mencionaron estar trabajando",
         "Numero de personas en trabajos informales (sin contrato/recibo o sin seguridad social) / Total de miembros que mencionaron estar trabajando",
         "-",
-        "Numero de hogares que se sienten discriminadas por nacionalidad en el ambito laboral/Total de personas encuestadas",
-        "Numero de hogares que se sienten discriminadas por nacionalidad en el ambito laboral/Total de personas encuestadas",
+        "Número de hogares que se sienten discriminados por su nacionalidad /Total de hogares encuestados",
+        "-",
         "Personas que no tienen ningun producto financiero/Total de hogares",
         "Personas que ganan un ingreso por debajo del salario minimo/Total de personas que trabajan",
         "-",
@@ -4256,6 +4256,8 @@ SourceJNA2024Indicators <-
     class = c("tbl_df", "tbl",
               "data.frame")
   )
+
+
 
 
 

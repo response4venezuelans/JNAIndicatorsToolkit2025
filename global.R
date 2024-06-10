@@ -1237,7 +1237,7 @@ SourceJNA2024Indicators <-
         "DESCRIPCIÓN: # de cuidadores de menores de 6 meses que recibieron donaciones de fórmula infantil",
         "% de niños/niñas de 6 a 59 meses que no han recibido el paquete mínimo de intervenciones nutricionales en los últimos 3 meses.",
         "DESCRIPCIÓN: # de cuidadores de niños y niñas de 6 a 59 meses que recibieron donaciones de fórmula infantil",
-        "% de  niños y niñas de 6 a 59 meses con diversidad alimentaria mínima",
+        "Porcentaje de niños y niñas de 6 a 59 meses en pobreza alimentaria infantil",
         "DESCRIPCIÓN: # de  niños y niñas de 6 a 59 meses que no reciben alimentos el número mínimo de veces recomendado",
         "DESCRIPCIÓN: # de  niños y niñas de 6 a 59 meses que no recibe una alimentación mínimamente aceptable",
         "DESCRIPCIÓN: # de niños y niñas de 6 a 59 meses que consumieron alimentos no saludables",
@@ -1252,7 +1252,7 @@ SourceJNA2024Indicators <-
         "DESCRIPCIÓN: # de cuidadores de menores de 6 meses que recibieron donaciones de fórmula infantil",
         "% de niños/niñas de 6 a 59 meses que no han recibido el paquete mínimo de intervenciones nutricionales en los últimos 3 meses.",
         "DESCRIPCIÓN: # de cuidadores de niños y niñas de 6 a 59 meses que recibieron donaciones de fórmula infantil",
-        "% de  niños y niñas de 6 a 59 meses con diversidad alimentaria mínima",
+        "Porcentaje de niños y niñas de 6 a 59 meses en pobreza alimentaria infantil",
         "DESCRIPCIÓN: # de  niños y niñas de 6 a 59 meses que no reciben alimentos el número mínimo de veces recomendado",
         "DESCRIPCIÓN: # de  niños y niñas de 6 a 59 meses que no recibe una alimentación mínimamente aceptable",
         "DESCRIPCIÓN: # de niños y niñas de 6 a 59 meses que consumieron alimentos no saludables",
@@ -4271,6 +4271,7 @@ SourceJNA2024Indicators <-
     class = c("tbl_df", "tbl",
               "data.frame")
   )
+
 
 
 

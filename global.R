@@ -1226,7 +1226,7 @@ SourceJNA2024Indicators <-
         "Porcentaje de grupos de viaje sin acceso a servcios de sanemiento",
         "Porcentaje de grupos de viaje sin acceso a duchas (higiene)",
         "Porcentaje de mujeres y niñas sin acceso a productos menstruales",
-        "# de mujeres gestantes y lactantes identificadas",
+        "% de mujeres embarazadas y lactantes que no han recibido el paquete mínimo de intervenciones nutricionales en los últimos 3 meses",
         "% de mujeres embarazadas y lactantes que no han recibido el paquete mínimo de intervenciones nutricionales en los últimos 3 meses",
         "DESCRIPCIÓN: # de mujeres embarazadas y lactantes que tienen una diversidad alimentaria mínima",
         "DESCRIPCIÓN: # de mujeres embarazadas y lactantes que consumieron alimentos no saludables",
@@ -2626,7 +2626,7 @@ SourceJNA2024Indicators <-
         "Si con solo agua; \r\nSi con solo jabón; \r\nNo tengo como lavarme las manos; \r\nUtilizo gel antimaterial/ toallas húmedas/ alcohol",
         "No se limpian o lavan las manos; \r\n Otro; \r\n No sabe",
         "En una ducha improvisada; \r\nEn duchas comunales o compartidas (público); \r\nEn una ducha donde se paga por el servicio; \r\nEn el río, playa o quebrada",
-        "No; \r\nSí, protectores; \r\nSí, trapos/telas; \r\nSí, Papel higienico; \r\nSi, Capas de ropa interior; \r\nNo aplica; \r\nOtro\r\n",
+        "No; \r\nSí, protectores; \r\nSí, trapos/telas; \r\nSí, Papel higienico; \r\nSi, Capas de ropa interior; \r\nOtro\r\n",
         "Sí",
         "1 o mas",
         "2 o más",
@@ -2635,7 +2635,7 @@ SourceJNA2024Indicators <-
         "\r\nComprando agua embotellada o en bolsa; \r\nServicios Pagos de fuentes de agua; \r\nDe la llave de la casa de un familiar, amigo o conocido; \r\nDe un río, quebrada, nacimiento o manantial; \r\nOtra; \r\nNo tiene acceso; \r\nNo sabe; \r\nPrefiere no responder",
         "Ha pagado para acceder a un sanitario o poceta en una vivienda o establecimiento; \r\nEn el río o laguna; \r\nEn la calle o al aire libre; \r\nOtra; \r\nNo tiene acceso;\r\n No sabe; \r\nPrefiere no responder",
         "Le han prestado una ducha en una vivienda o establecimiento; \r\nHa pagado para acceder a una ducha en una vivienda o establecimiento; \r\nEn el río o laguna; \r\nEn su vivienda; \r\nOtra; \r\nNo tiene acceso; \r\nNo sabe; \r\nPrefiere no responder",
-        "No; \r\nSí, protectores; \r\nSí, trapos/telas; \r\nSí, Papel higienico; \r\nSi, Capas de ropa interior; \r\nNo aplica; \r\nOtro\r\n",
+        "No; \r\nSí, protectores; \r\nSí, trapos/telas; \r\nSí, Papel higienico; \r\nSi, Capas de ropa interior; \r\nOtro\r\n",
         "Mujer gestante o lactante que no recibió las 3 primeras intervenciones;",
         "Mujer gestante o lactante que no recibió las 3 primeras intervenciones;",
         "-",
@@ -4271,6 +4271,7 @@ SourceJNA2024Indicators <-
     class = c("tbl_df", "tbl",
               "data.frame")
   )
+
 
 
 

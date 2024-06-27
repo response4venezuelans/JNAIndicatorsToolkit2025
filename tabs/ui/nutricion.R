@@ -5,7 +5,7 @@ nutricion <- tabPanel(
   div(
     id = "sectorTitle",
     tags$img(src = "img/nutricion.png", id = "SectorLogo"),
-    h3("Indicadores sector Integración", style = paste0("color: ", appColors[16], ";"))
+    h3("Indicadores sector Nutrición", style = paste0("color: ", appColors[16], ";"))
   ),
   br(), hr(),
   mainPanel(

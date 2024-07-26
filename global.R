@@ -2708,8 +2708,8 @@ SourceJNA2024Indicators <-
         "Todos excepto ninguna y no aplica",
         "Con guía; una parte por cuenta propia y otra con guía",
         "-",
-        "Caminando o en bicicleta que duren más de 30 minutos hasta su lugar de destino;",
-        "Caminando o en bicicleta que duren más de 30 minutos hasta su lugar de destino;",
+        "Personas que tardan más de 30 minutos hasta su lugar de destino en bicicleta o caminando, así como las que usan  los siguentes medios (sin considerar el tiempo): transporte particular o colectivo informal; transporte humanitario pagado por organizaciones o gobierno; cola/aventón/autoestop; u otro (este último a consideración de la plataforma)",
+        "Personas que tardan más de 30 minutos hasta su lugar de destino en bicicleta o caminando, así como las que usan  los siguentes medios (sin considerar el tiempo): transporte particular o colectivo informal; transporte humanitario pagado por organizaciones o gobierno; cola/aventón/autoestop; u otro (este último a consideración de la plataforma)",
         "-",
         "-",
         "-",
@@ -3272,8 +3272,8 @@ SourceJNA2024Indicators <-
         "Número de grupos que contestaron  estar expuestos a cualquiera de las situaciones de riesgo  /Total de hogares encuestados",
         "Número de grupos de viaje que viajan con guía, una parte con guía y otra por cuenta propia / todos los grupos de viaje",
         "-",
-        "Personas que caminan o que usan la bicicleta y que duran 30 minutos o mas hasta su lugar de destino / Total de personas encuestadas",
-        "Personas que caminan o que usan la bicicleta y que duran 30 minutos o mas hasta su lugar de destino / Total de personas encuestadas",
+        "Personas en el umbral / Total de personas encuestadas",
+        "Personas en el umbral / Total de personas encuestadas",
         "-",
         "-",
         "-",
@@ -4271,6 +4271,7 @@ SourceJNA2024Indicators <-
     class = c("tbl_df", "tbl",
               "data.frame")
   )
+
 
 
 

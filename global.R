@@ -2341,7 +2341,7 @@ SourceJNA2024Indicators <-
         "Falta de instalaciones sanitarias (letrinas/inodoros) / instalaciones demasiado llenas; \r\nLas instalaciones sanitarias (letrinas/inodoros) no funcionan o están llenas; \r\nLas instalaciones sanitarias (letrinas/inodoros) no están limpias /antihigiénicos; \r\nLas instalaciones sanitarias (letrinas/inodoros) no son privadas (sin cerraduras/ puertas/ paredes/ iluminación, etc.); \r\nLas instalaciones sanitarias (letrinas/inodoros) no están separadas entre hombres y mujeres; \r\nLas instalaciones sanitarias (letrinas/inodoros) están lejos; \r\nLas instalaciones de saneamiento (letrinas/baños) son de difícil acceso (especialmente para las personas con discapacidad); \r\nIr a las instalaciones de saneamiento (letrinas/baños) es peligroso; \r\nAlgunos grupos (niños, mujeres, ancianos, minorías étnicas, etc.) no tiene acceso a instalaciones de saneamiento (letrinas/inodoros); Otro (especifique); \r\nNo sabe",
         "Recolección por servicios formal o de aseo municipal; \r\n La recoge un servicio informal (zorra, carreta, etc.); \r\n La llevan a un área designada para la recolección; \r\n La tiran a un río, quebrada, caño o laguna; \r\n La tiran a un patio, lote, zanja, calle o baldío; \r\nLa recoge un servicio informal (zorra, carreta, etc.); \r\n La queman o entierran; \r\nNo sé",
         "Residuos o Basura acumulada; \r\n Heces humanas o aguas negras; \r\n Agua estancada; \r\n Roedores; \r\nAnimales muertos",
-        "Si con agua y jabón siempre; \r\nSi con solo agua; \r\nSi con solo jabón; \r\nNo tengo como lavarme las manos; \r\nUtilizo gel antimaterial/ toallas húmedas/ alcohol",
+        "Si con agua y jabón siempre; \r\nSi con solo agua; \r\nSi con solo jabón; \r\nNo tengo como lavarme las manos; \r\nUtilizo gel antibacterial/ toallas húmedas/ alcohol",
         "Antes de comer; \r\n Antes de cocinar/preparar la comida; \r\n Después de defecar; \r\n Antes de amamantar; \r\n Antes de alimentar a los niños; \r\n Después de manipular las heces de un niño/cambiar un pañal/limpiar las nalgas de un niño; \r\n No se limpian o lavan las manos; \r\n Otro; \r\n No sabe; \r\n Prefiere no responder",
         "En una ducha privada adentro del hogar; \r\nEn una ducha compartida con otros hogares; \r\nEn una ducha improvisada; \r\nEn duchas comunales o compartidas (público); \r\nEn una ducha donde se paga por el servicio; \r\n En el río, playa o quebrada; \r\n No sabe; \r\n Prefiere no responder",
         "No; \r\nSí, toallas higienicas; \r\nSí, protectores; \r\nSí, trapos/telas; \r\nSí, tampón; \r\nSí, copa menstrual; \r\nSí, Papel higienico; \r\nSi, capas de ropa interior; \r\nNo aplica; \r\nOtro; \r\nNo sabe; \r\nPrefiere no responder\r\n",
@@ -2411,7 +2411,7 @@ SourceJNA2024Indicators <-
         "Sí; \r\nNo; \r\nNo sabe; \r\nPrefiere no responder",
         "Sí;\r\nNo; \r\nNo sabe; \r\nPrefiere no responder",
         "Sí; \r\nNo; \r\nNo sabe; \r\nPrefiere no responder",
-        "No evitan ningún lugar; \r\nSí;                                                                    \r\nNo sabe; \r\nPrefiere no responder \r\n",
+        "No evitan ningún lugar; \r\nSí;                                                                    \r\nNo sabe; \r\nPrefiere no responder",
         "\r\nAlbergues; \r\nZonas sociales/comunitarias/ religiosas; \r\nDe camino /en la escuela; \r\nDe camino a/en centros comunitarios; \r\nDe camino a/en centros de salud;                        \r\nEn el lugar de trabajo; \r\nEn sus casas; \r\nEn el transporte público; \r\nAl cruzar puestos de control migratorio; \r\nPrefiere no responder",
         "1 muy segura; 2 segura;  3 ni segura  ni insegura; 4 insegura;  5 muy insegura",
         "Si;  No;  Prefiere no responder",
@@ -2693,7 +2693,7 @@ SourceJNA2024Indicators <-
         "No",
         "Si",
         "-",
-        "Sí",
+        "Sí; \r\nPrefiere no responder",
         "-",
         "4 insegura 5 muy insegura",
         "Si",
@@ -4271,6 +4271,7 @@ SourceJNA2024Indicators <-
     class = c("tbl_df", "tbl",
               "data.frame")
   )
+
 
 
 

@@ -1298,8 +1298,8 @@ SourceJNA2024Indicators <-
         "% de grupos de viaje que han sido expuestos a situaciones de explotación laboral",
         "% de grupos de viaje que se encuentran expuestos a situaciones asociadas al tráfico ilícito durante su viaje.",
         "DESCRIPCIÓN: Grupos de viaje que los han hecho esperar en un lugar durante el trayecto",
-        "Porcentaje de personas encuestadas o jefes de hogar que tardan más de 30 minutos a su lugar de destino caminando o en bicicleta",
-        "Porcentaje de personas encuestadas o jefes de hogar que tardan más de 30 minutos a su lugar de destino caminando o en bicicleta",
+        "Porcentaje de personas encuestadas o jefes de hogar que tardan más de 30 minutos a su lugar de destino más común caminando o en bicicleta, o personas que utilizan transporte informal, humanitario o piden aventón.",
+        "Porcentaje de personas encuestadas o jefes de hogar que tardan más de 30 minutos a su lugar de destino más común caminando o en bicicleta, o personas que utilizan transporte informal, humanitario o piden aventón.",
         "DESCRIPCIÓN: Preferencia de hogares para el transporte",
         "DESCRIPCIÓN: Fuentes de información e información consultada por los grupos de viaje previo a iniciar el viaje",
         "DESCRIPCIÓN: Forma de entrada de los grupos de viaje al país en donde se está realizando la encuesta",
@@ -4267,14 +4267,9 @@ SourceJNA2024Indicators <-
         "*Más información sobre el proceso de cálculo de CARI disponible en esta presentación: https://www.r4v.info/es/document/CARI-indicadores-SA\r\n\r\nCálculo del CARI:\r\n\r\nCompute Mean_coping_capacity_FES = MEAN (Max_coping_behaviour, Foodexp_4pt). \r\n--\r\nCompute CARI_unrounded_FES = MEAN (FCS_4pt, Mean_coping_capacity_FES). \r\nCompute CARI_FES = RND (CARI_unrounded_FES).  \r\nExecute. \r\n\r\nValue labels CARI_FES 1 'Food secure'   2 'Marginally food secure'   3 'Moderately food insecure'   4 'Severely food insecure'.\r\nEXECUTE."
       )
     ),
-    row.names = c(NA,-280L),
-    class = c("tbl_df", "tbl",
-              "data.frame")
+    row.names = c(NA, -280L),
+    class = c("tbl_df", "tbl", "data.frame")
   )
-
-
-
-
 
 
 
@@ -4283,7 +4278,7 @@ SourceJNA2024Indicators <-
 
 JNA2024Indicators <- SourceJNA2024Indicators
 
-##-- Calling componets for shiny header  ----
+##-- Calling components for shiny header  ----
 tab_files <-
   list.files(path = "tabs",
              full.names = T,

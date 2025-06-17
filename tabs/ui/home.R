@@ -5,7 +5,7 @@ home <- tabPanel(title = "Home",
                           HTML("<h1><b>Catálogo de preguntas e indicadores para evaluaciones de necesidades de R4V</b></h1>"),
 
                           HTML(
-                            "<h4>El primer módulo a continuación contiene la información correspondiente al marco analítico utilizado para el cálculo de las personas en necesidad con base en los indicadores y las preguntas establecidas como mandatorias (“core”). Los módulos siguientes contienen las fichas completas de los <b>indicadores y las preguntas estandarizadas</b> para la estimación de las personas en necesidad y el análisis de su situación en cada uno de los 9 sectores y 3 subsectores de la plataforma de coordinación interagencial R4V.</h4>"
+                            "<h4>El primer módulo a continuación contiene la información correspondiente al <b>marco analítico</b> utilizado para el cálculo de las personas en necesidad con base en los indicadores y las preguntas establecidas como mandatorias (“core”). Los módulos siguientes contienen las fichas completas de los <b>indicadores y las preguntas estandarizadas</b> para la estimación de las personas en necesidad y el análisis de su situación en cada uno de los 9 sectores y 3 subsectores de la plataforma de coordinación interagencial R4V.</h4>"
                           )
                         )
                  ),

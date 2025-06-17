@@ -1463,7 +1463,7 @@ NA, "-", "Al menos una de las situaciones", "No", "-", "Si y prefiere no respond
 "Si", "-", "SI", "SI", "Todos excepto ninguna y no aplica", "SI;", 
 "Si", "Todos excepto ninguna y no aplica", "Con guía; una parte por cuenta propia y otra con guía", 
 "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"), 
-    `Indicador CORE` = c("Si", "Si", "Si", "Si", "No", "No", 
+    `Indicador Core PiN` = c("Si", "Si", "Si", "Si", "No", "No", 
     "No", "Si", "Si", "No", "Si", "Sí, pero no para cálculo PiN", 
     "Si", "No", "No", "No", "No", "No", "No", "No", "No", "No", 
     "Si", "No", "Si", "Si", "Si", "No", "No", "Si", "Si", "Si", 
@@ -1737,7 +1737,7 @@ NA, "-", "Al menos una de las situaciones", "No", "-", "Si y prefiere no respond
     "Número de grupos que contestaron  estar expuestos a cualquiera de las situaciones de riesgo  /Total de hogares encuestados", 
     "Número de grupos de viaje que viajan con guía, una parte con guía y otra por cuenta propia / todos los grupos de viaje", 
     "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-"
-    ), `Unidad de Medida` = c("Miembros de hogar", "Miembros de hogar", 
+    ), `Unidad de medida` = c("Miembros de hogar", "Miembros de hogar", 
     "Miembros de hogar", "Miembros de hogar", "Miembros de hogar", 
     "Miembros de hogar", "Miembros de hogar", "Miembros de hogar", 
     "Miembros de hogar", "Miembros de hogar", "Hogar", "Hogar", 

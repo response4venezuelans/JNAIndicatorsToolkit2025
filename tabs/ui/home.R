@@ -43,7 +43,7 @@ home <- tabPanel(title = "Home",
                         tab_sector(text = "TRATA Y TRAFICO DE PERSONAS", color = appColors[10], icon = "proteccionTT.png", id = "trataTrafico")
                  ),
                  column(width = 3, align = "center",
-                        tab_sector(text = "WG", color = appColors[9], icon = "wg.png", id = "wg")
+                        tab_sector(text = "GRUPOS DE TRABAJO", color = appColors[9], icon = "wg.png", id = "wg")
                  ),
                  # column(width = 3, align = "center",
                  #        tab_sector(text = "PEAS", color = appColors[9], icon = "peas.png", id = "peas")

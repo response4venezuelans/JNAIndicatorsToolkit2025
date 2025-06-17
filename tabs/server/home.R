@@ -32,6 +32,9 @@ observeEvent(input$vbg,{
 observeEvent(input$trataTrafico,{
   updateTabsetPanel(session = session, inputId = "navbar", selected = "trataTrafico")
 })
+observeEvent(input$wg,{
+  updateTabsetPanel(session = session, inputId = "navbar", selected = "wg")
+})
 observeEvent(input$peas,{
   updateTabsetPanel(session = session, inputId = "navbar", selected = "peas")
 })

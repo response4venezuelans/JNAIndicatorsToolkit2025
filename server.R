@@ -23,6 +23,8 @@ shinyServer(function(input, output, session){
   source("tabs/server/vbg.R", local = TRUE)
   ##-- PROTECCION TRATA TRAFICO ----
   source("tabs/server/trataTrafico.R", local = TRUE)
+  ##-- WG ----
+  source("tabs/server/wg.R", local = TRUE)
   ##-- PEAS ----
   source("tabs/server/peas.R", local = TRUE)
   ##-- ALOJAMIENTO ----

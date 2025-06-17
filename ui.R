@@ -38,7 +38,8 @@ shinyUI(
                infancia,
                vbg,
                trataTrafico,
-               peas,
+               #peas,
+               wg,
                alojamiento,
                wash,
                educacion
